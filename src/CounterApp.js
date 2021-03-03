@@ -11,11 +11,11 @@ const CounterApp = ({numero = 10}) => {
         setCounter( (c) => c + 1);
     };
     const handleReset = () => {
-        // setCounter(counter + 1);
+        // setCounter(10);
         setCounter( (c) => 10);
     };
     const handleSubstract = () => {
-        // setCounter(counter + 1);
+        // setCounter(counter - 1);
         setCounter( (c) => c - 1);
     };
     return (
